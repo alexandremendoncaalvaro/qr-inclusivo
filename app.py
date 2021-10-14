@@ -47,7 +47,7 @@ def handle_data():
 
     # url = request.url_root
 
-    url = 'https://young-woodland-04378.herokuapp.com/ '
+    url = 'https://young-woodland-04378.herokuapp.com/'
     url += 'static/audio'
 
     generate_qr_code(url, filename)
