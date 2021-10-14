@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qr-inclusivo"
+version = "0.1.0"
+description = "MVP de qr-code inclusivo para descricao em audio do produto"
+authors = ["Alexandre Mendonça Alvaro <alexandre.alvaro@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygame = "^2.0.2"
+PyQRCode = "^1.2.1"
+pypng = "^0.0.21"
+gTTS = "^2.2.3"
+Flask = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
