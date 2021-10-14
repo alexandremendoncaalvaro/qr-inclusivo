@@ -45,9 +45,9 @@ def handle_data():
     date_string = now.strftime("%Y%m%d%H%M%S")
     filename = 'qr' + date_string
 
-    url = request.url_root
+    # url = request.url_root
 
-    # url = 'http://192.168.68.200:5000'
+    url = 'https://young-woodland-04378.herokuapp.com/ '
     url += 'static/audio'
 
     generate_qr_code(url, filename)
